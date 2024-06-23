@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+    border: 2px solid #333;
+    width: 306px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #333;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.status {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.restart-button {
+    font-size: 1em;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.restart-button:hover {
+    background-color: #45a049;
+}
+
+.restart-button:active {
+    background-color: #3e8e41;
+}
