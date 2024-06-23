@@ -1,4 +1,4 @@
-let currentPlayer = 'X';
+let currentPlayer = 'You';
 let gameStatus = ['', '', '', '', '', '', '', '', ''];
 const winningConditions = [
     [0, 1, 2],
